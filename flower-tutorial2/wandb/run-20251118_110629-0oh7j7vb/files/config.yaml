@@ -1,0 +1,62 @@
+_wandb:
+    value:
+        cli_version: 0.23.0
+        e:
+            wkla1at5r0jq4cnu2xd7b17hhvn1kr8v:
+                args:
+                    - --app
+                    - .
+                    - --num-supernodes
+                    - "10"
+                codePath: venv/bin/flower-simulation
+                cpu_count: 4
+                cpu_count_logical: 8
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "115156996096"
+                        used: "82530443264"
+                email: tumuruub0108@gmail.com
+                executable: /home/tumuruu/Desktop/ml/vs_code/flower/venv/bin/python3
+                git:
+                    commit: a5e15b25d2d64cce30e6ba053a356b87312e8cd4
+                    remote: https://github.com/tumuruub0108/flower.git
+                gpu: NVIDIA GeForce GTX 750 Ti
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Maxwell
+                      cudaCores: 640
+                      memoryTotal: "1073741824"
+                      name: NVIDIA GeForce GTX 750 Ti
+                      uuid: GPU-5b10fbfc-b1d8-45c1-1c18-fd406cb52643
+                host: tumuruu-B85M-D3H
+                memory:
+                    total: "25077592064"
+                os: Linux-6.14.0-35-generic-x86_64-with-glibc2.39
+                program: /home/tumuruu/Desktop/ml/vs_code/flower/venv/bin/flower-simulation
+                python: CPython 3.12.3
+                root: /home/tumuruu/Desktop/ml/vs_code/flower/flower-tutorial2
+                startedAt: "2025-11-18T02:06:29.610411Z"
+                writerId: wkla1at5r0jq4cnu2xd7b17hhvn1kr8v
+        m: []
+        python_version: 3.12.3
+        t:
+            "1":
+                - 1
+                - 30
+                - 41
+                - 49
+                - 51
+            "2":
+                - 1
+                - 30
+                - 41
+                - 49
+                - 51
+            "3":
+                - 13
+                - 61
+            "4": 3.12.3
+            "5": 0.23.0
+            "12": 0.23.0
+            "13": linux-x86_64
