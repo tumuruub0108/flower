@@ -1,0 +1,40 @@
+Training loss and evaluation loss (often called validation loss or test loss) are two important metrics used to understand how well a machine learning model is learning and how well it generalizes
+
+
+
+#Training Loss
+Training loss is the error the model makes on the training data during training.
+
+# Meaning:
+    It measures how well the model fits the data it is learning from.
+
+    It is computed every batch or every epoch during training.
+
+    It usually decreases over time as the model updates its weights.
+
+# Example:
+If training loss = 0.10 → the model is predicting most training samples correctly.
+
+# Evaluation Loss (Validation/Test Loss)
+Evaluation loss is the error the model makes on unseen data, usually called validation or test data.
+
+# Meaning:
+    It measures how well the model generalizes to new data it has never seen.
+
+    It is computed after each epoch or after training.
+
+    It shouldn't be too different from training loss.
+
+# Example
+If evaluation loss = 0.30 → the model performs worse on unseen data than on training data.
+
+# If training loss ↓ and evaluation loss ↓
+→ Model is learning well and generalizing well.
+
+# If training loss ↓ but evaluation loss ↑
+→ Model is overfitting
+Meaning: the model memorized the training data but cannot generalize.
+
+# If training loss stays high but evaluation loss stays low
+→ Model is underfitting
+Meaning: the model has not learned enough.

@@ -1,12 +1,12 @@
-"""flower-tutorial2: A Flower / PyTorch app."""
+"""yt-tutorial: A Flower / PyTorch app."""
 
 import torch
 from flwr.app import ArrayRecord, Context, Message, MetricRecord, RecordDict
 from flwr.clientapp import ClientApp
 
-from flower_tutorial2.task import Net, load_data
-from flower_tutorial2.task import test as test_fn
-from flower_tutorial2.task import train as train_fn
+from yt_tutorial.task import Net, load_data
+from yt_tutorial.task import test as test_fn
+from yt_tutorial.task import train as train_fn
 
 # Flower ClientApp
 app = ClientApp()
@@ -23,7 +23,7 @@ def train(msg: Message, context: Context):
     model.to(device)
 
     # Load the data
-    partition_id = context.node_config["partition-id"]
+    partition_id = context.node_config["partition-id"] 
     num_partitions = context.node_config["num-partitions"]
     trainloader, _ = load_data(partition_id, num_partitions)
 
@@ -68,7 +68,7 @@ def evaluate(msg: Message, context: Context):
         valloader,
         device,
     )
-  
+
     # Construct and return reply Message
     metrics = {
         "eval_loss": eval_loss,

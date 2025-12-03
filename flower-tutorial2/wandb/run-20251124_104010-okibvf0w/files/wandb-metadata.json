@@ -1,0 +1,45 @@
+{
+  "os": "Linux-6.14.0-36-generic-x86_64-with-glibc2.39",
+  "python": "CPython 3.12.3",
+  "startedAt": "2025-11-24T01:40:10.598128Z",
+  "args": [
+    "--app",
+    ".",
+    "--num-supernodes",
+    "10"
+  ],
+  "program": "/home/tumuruu/Desktop/ml/vs_code/flower/venv/bin/flower-simulation",
+  "codePath": "venv/bin/flower-simulation",
+  "git": {
+    "remote": "https://github.com/tumuruub0108/flower.git",
+    "commit": "554f6d1ac298e6158ca20d9704252b7ce9c08829"
+  },
+  "email": "tumuruub0108@gmail.com",
+  "root": "/home/tumuruu/Desktop/ml/vs_code/flower/flower-tutorial2",
+  "host": "tumuruu-B85M-D3H",
+  "executable": "/home/tumuruu/Desktop/ml/vs_code/flower/venv/bin/python3",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "gpu": "NVIDIA GeForce GTX 750 Ti",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "115156996096",
+      "used": "81465532416"
+    }
+  },
+  "memory": {
+    "total": "25077559296"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce GTX 750 Ti",
+      "memoryTotal": "1073741824",
+      "cudaCores": 640,
+      "architecture": "Maxwell",
+      "uuid": "GPU-5b10fbfc-b1d8-45c1-1c18-fd406cb52643"
+    }
+  ],
+  "cudaVersion": "13.0",
+  "writerId": "vlhutjwte0yb96ebz2qyrn8n7nuz2q5z"
+}
